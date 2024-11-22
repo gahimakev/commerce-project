@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redstore </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+<div class="header">
+    <div class="container">
+        <div class="navbar">
+            <div class="logo"> 
+                <a href="index.html"><img src="logo.png" width="125px"></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">products</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <a href="cart.html"><img src="cart.png" width="30px" height="30px"></a>
+            <img src="menu.png" class="menu-icon"
+             onclick="menutoggle()">
+         </div>
+         <div class="row">
+            <div class="col-2">
+                <h1>Give Your workout<br> A New Style</h1>
+                <p>Redstore is your go-to destination for premium sports equipment, apparel, and accessories.<br> We deliver high-quality products designed to elevate your performance and fuel your passion for sports--all from the comfort of your home.</p>
+                <a href="products.html" class="btn">Explore Now &#8594;</a>
+            </div>
+            <div class="col-2">
+                <img src="image1.png">
+            </div>
+         </div>
+    </div>
+    </div>
+
+    <!---------featured categories---------->
+
+         <div class="categories">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-3">
+                        <img src="category-1.jpg" >
+                    </div>
+                    <div class="col-3">
+                        <img src="category-2.jpg" >
+                    </div>
+                    <div class="col-3">
+                        <img src="category-3.jpg" >
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!---------featured products---------->
+
+<div class="small-container">
+    <h2 class="title">Featured products</h2>
+    <div class="row">
+        <div class="col-4">
+        <a href="products-details.html"><img src="product-1.jpg"></a>
+        <a href="products-details.html"><h4>Red printed T-shirt</h4></a>
+        <div class="rating">
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bx-star' ></i>
+        </div>
+        <p>$50.00</p>
+        </div>
+        <div class="col-4">
+            <img src="product-2.jpg" >
+            <h4>HRX black</h4>
+            <div class="rating">
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star'></i>
+                <i class='bx bxs-star-half'></i>
+                <i class='bx bx-star' ></i>
+            </div>
+            <p>$20.00</p>
+            </div>
+            <div class="col-4">
+                <img src="product-3.jpg" >
+                <h4>Grey pant</h4>
+                <div class="rating">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star-half'></i>
+                </div>
+                <p>$60.00</p>
+                </div>
+                <div class="col-4">
+                    <img src="product-4.jpg" >
+                    <h4>Blue puma T-shirt</h4>
+                    <div class="rating">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bx-star' ></i>
+                    </div>
+                    <p>$70.00</p>
+                    </div>
+                <h2 class="title">Latest products</h2> 
+                <div class="row">
+                    <div class="col-4">
+                    <img src="product-5.jpg" >
+                    <h4>White shoes</h4>
+                    <div class="rating">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bx-star' ></i>
+                    </div>
+                    <p>$50.00</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="product-6.jpg" >
+                        <h4>puma black t-shirt</h4>
+                        <div class="rating">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star-half'></i>
+                            <i class='bx bx-star' ></i>
+                        </div>
+                        <p>$20.00</p>
+                        </div>
+                        <div class="col-4">
+                            <img src="product-7.jpg" >
+                            <h4>socks</h4>
+                            <div class="rating">
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star-half'></i>
+                            </div>
+                            <p>$60.00</p>
+                            </div>
+                            <div class="col-4">
+                                <img src="product-8.jpg" >
+                                <h4>fossil watch</h4>
+                                <div class="rating">
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bx-star' ></i>
+                                </div>
+                                <p>$70.00</p>
+                                </div>              
+                          </div>
+                          <div class="row">
+                            <div class="col-4">
+                            <img src="product-9.jpg" >
+                            <h4>roadster watch</h4>
+                            <div class="rating">
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bx-star' ></i>
+                            </div>
+                            <p>$50.00</p>
+                            </div>
+                            <div class="col-4">
+                                <img src="product-10.jpg" >
+                                <h4>HRX black 2</h4>
+                                <div class="rating">
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star'></i>
+                                    <i class='bx bxs-star-half'></i>
+                                    <i class='bx bx-star' ></i>
+                                </div>
+                                <p>$20.00</p>
+                                </div>
+                                <div class="col-4">
+                                    <img src="product-11.jpg" >
+                                    <h4>Runneyys</h4>
+                                    <div class="rating">
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star-half'></i>    
+                                    </div>
+                                    <p>$60.00</p>
+                                    </div>
+                                    <div class="col-4">
+                                        <img src="product-12.jpg" >
+                                        <h4>Black pant</h4>
+                                        <div class="rating">
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bxs-star'></i>
+                                            <i class='bx bx-star' ></i>
+                                        </div>
+                                        <p>$70.00</p>
+                                        </div>        
+                                      </div>
+    </div>
+<!------- offer ------>
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="exclusive.png" class="offer-img">
+                </div>
+                <div class="col-2">
+                    <p>Exclusively Available on Redstore</p>
+                    <h1>Smart band 4</h1>
+                    <small>The Smart Band 4 features a vivid 1.1-inch AMOLED display, up to 14 days of battery life, and 10+ sport modes. With 24/7 heart rate tracking and 50m water resistance, it’s built to support your active lifestyle, anytime, anywhere.</small>
+                    <br><a href="" class="btn">Buy Now &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!---------------------------------- testimonial --------------------------->
+<div class="testimonial">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-3">
+                <i class='bx bxs-quote-alt-left' ></i>
+                <p>RedStore is amazing! The website is super easy to navigate, and I found exactly what I needed in no time. The delivery was fast, and the quality of the products exceeded my expectations. Will definitely shop here again!</p>
+                <div class="rating">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bx-star' ></i>
+                </div>
+                    <img src="user-1.png">
+                    <h3>Sean parker</h3>
+                </div>
+                <div class="col-3">
+                    <i class='bx bxs-quote-alt-left' ></i>
+                    <p>I’m so impressed with RedStore! The variety of products is fantastic, and the customer service is top-notch. I ordered a few items, and they arrived perfectly packed and on time. Highly recommended!</p>
+                    <div class="rating">
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bxs-star'></i>
+                        <i class='bx bx-star' ></i>
+                    </div>
+                        <img src="user-2.png">
+                        <h3>Mike smith</h3>
+                    </div>
+                    <div class="col-3">
+                        <i class='bx bxs-quote-alt-left' ></i>
+                        <p>Shopping at RedStore has been a pleasure! The website is well-designed, and the prices are great. I loved the smooth checkout process, and my order was delivered quickly. Amazing experience overall!</p>
+                        <div class="rating">
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bxs-star'></i>
+                            <i class='bx bx-star' ></i>
+                        </div>
+                            <img src="user-3.png">
+                            <h3>Mabel joe</h3>
+                        </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!----------------------- brands ------------------>
+<div class="brands">
+    <div class="small-container">
+        <div class="row">
+            <div class="col-5">
+                <a href="https://www.godrej.com/"><img src="logo-godrej.png"></a>
+            </div>
+            <div class="col-5">
+                <a href="https://www.oppo.com/en/"><img src="logo-oppo.png"></a>
+            </div>
+            <div class="col-5">
+                <a href="https://www.coca-colacompany.com/"><img src="logo-coca-cola.png"></a>
+            </div>
+            <div class="col-5">
+                <a href="https://www.paypal.com/rw/home"><img src="logo-paypal.png"></a>
+            </div>
+            <div class="col-5">
+                <a href="https://www.philips.com/global"><img src="logo-philips.png"></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!------------------------------ footer ----------------------------->
+
+ <div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="fotter-col-1">
+             <h3>Download Our Apps</h3>
+             <p>Download App for Android and ios mobile phone</p>
+             <div class="app-logo">
+                <img src="play-store.png">
+                <img src="app-store.png">
+             </div>
+            </div>
+            <div class="fotter-col-2">
+                <a href="index.html"><img src="logo-white.png"></a>
+                <p>Our Purpose Is To Sustainably Make the Pleasure Android
+                   <br> Benefits of Sports Accessible to the Many.</p>
+            </div>
+            <div class="fotter-col-3">
+               <h3>Useful Links</h3>
+               <ul>
+                <li>Coupons</li>
+                <li>Blog Post</li>
+                <li>Return Policy</li>
+                <li>Join Affiliate</li>
+               </uL>
+               </div>
+               <div class="fotter-col-4">
+                <h3>Follow us</h3>
+                <ul>
+                 <li>Facebook</li>
+                 <li>X</li>
+                 <a href="https://www.instagram.com/amk_vn/"><li>Instagram</li></a>
+                 <li>Youtube</li>
+                </ul>
+                </div>
+        </div>
+        <hr>
+        <p class="Copyright">Copyright 2024 - All rights reserved // Created by <a href="https://gahimakev.github.io/portfolio/">Gahima olga kevin</a></p>
+    </div>
+ </div>
+<!------------------------   js for toggle menu --------------------------->
+     <script>
+             var MenuItems = document.getElementById("MenuItems");
+
+             MenuItems.style.maxHeight = "0px";
+
+          function menutoggle(){
+               if(MenuItems.style.maxHeight == "0px")
+                       {
+                             MenuItems.style.maxHeight = "200px";
+                       }
+                else
+                       {
+                             MenuItems.style.maxHeight = "0px";
+                       }
+    }
+     </script>
+
+</body>
+</html>
